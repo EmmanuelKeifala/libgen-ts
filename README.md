@@ -53,6 +53,11 @@ This method tests the mirrors in `available_mirrors.js` (currently
 `http://libgen.is` and `http://gen.lib.rus.ec`) and returns the one
 that is fastest.
 
+## usage: import
+```ts
+import * as libgen from 'libgen-ts';
+```
+
 ```js
 const urlString = await libgen.mirror()
 console.log(`${urlString} is currently fastest`)

@@ -1,7 +1,7 @@
 {
-  "name": "libgen",
+  "name": "libgen-ts",
   "version": "2.2.0",
-  "description": "The Library Genesis API (and more) for Node.js",
+  "description": "The Library Genesis API (and more) for Node.js and now support typescript typing",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha test/**/*.js"
@@ -12,11 +12,11 @@
     "books",
     "api"
   ],
-  "author": "Alex Dunn",
+  "author": "Alex Dunn | Emmanuel Keifala",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://codeberg.org/egirl/libgen.js.git"
+    "url": "https://github.com/EmmanuelKeifala/libgen-ts.git"
   },
   "dependencies": {
     "got": "11.8.x"
